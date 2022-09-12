@@ -1,0 +1,29 @@
+/* ---------------------------- Terms Page -------------------------------- */
+
+.terms {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.terms h2 {
+    padding-top: 20px;
+}
+
+.terms h3 {
+    text-align: left;
+}
+
+.terms p {
+    padding: 0;
+    color: #222;
+}
+
+.terms ul {
+    padding-left: 40px;
+}
+
+.terms ul li {
+    font-size: 15px;
+    color: #222;
+}

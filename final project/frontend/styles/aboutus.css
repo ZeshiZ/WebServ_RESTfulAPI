@@ -1,0 +1,41 @@
+/* ------------------------------------ About Us Page ------------------------------------ */
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(20, 49, 14, 0.7),rgba(20,49,14,0.6)), url(images/hundred-acres-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 100px;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.about-col p {
+    padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}

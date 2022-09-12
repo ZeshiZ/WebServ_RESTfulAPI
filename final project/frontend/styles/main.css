@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* CSS document for Hundred Acres web site. */
+/* Developed by: Sharon Lee, Jeorge Romel Trinidad, Takafumi Hayashi & Zeshi Zhong */
+/* Script Date: February 3, 2022 */
+
+@import url(aboutus.css);
+@import url(beginner.css);
+@import url(index.css);
+@import url(trails.css);
+@import url(mobile.css);
+@import url(facilities.css);
+@import url(footer.css);
+@import url(blog.css);
+@import url(contact.css);
+@import url(reservation.css);
+@import url(terms.css);
+@import url(information.css);
+@import url(virtual.css);
+@import url(weather.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,56 @@
+/* ----- Footer ------ */
+.footer {
+    text-align: center;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: rgb(151, 247, 223);
+}
+
+.footer h4 {
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 0 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+.footer .bottom-links {
+    width: 100%;
+    text-align: right;
+}
+
+.footer .bottom-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+}
+
+.footer .bottom-links ul li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.icons .fa {
+    color: rgb(75, 199, 168);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart {
+    color: rgb(75, 199, 168);
+}
+
+.footer-col {
+    flex-basis: 30%;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}

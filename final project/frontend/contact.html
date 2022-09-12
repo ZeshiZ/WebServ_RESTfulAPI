@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon2.jpg">
+    <title>Hundred Acre Woods - Contact</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/hundred acres-logos_white.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT US</a></li>
+                    <li><a href="trails.html">TRAILS</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="beginner.html">BEGINNER INFO</a></li>
+                                <li><a href="sneak_peak.html">SNEAK PEAK</a></li>
+                                <li><a href="virtual_hike.html">VIRTUAL HIKE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog.html">POSTS</a></li>
+                    <li class="active.reservation2">RESERVATION
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="booking.html">CABIN</a></li>
+                                <li><a href="camp.html">CAMPSITE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="active"><a href="contact.html">CONTACT</a></li>
+                    <li><a href="contact_fr.html">FRANÇAIS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <!------- Contact Page Content ------>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23804.546751513542!2d0.04158652206732268!3d51.077400243439385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df5e12f2d25aad%3A0x86078c0c4bd9da4!2sAshdown%20Forest!5e0!3m2!1sen!2sca!4v1644364169813!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Ashdown Forest</h5>
+                        <p>Wych Cross, Forest Row, UK</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+44 7911 123456</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@hundredacres.com</h5>
+                        <p>Email us your queries.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="name" maxlength="50" placeholder="Enter your name *" required>
+                    <input type="email" name="email" maxlength="50" placeholder="Enter email address *" required>
+                    <input type="text" name="subject" maxlength="30" placeholder="Enter subject *" required>
+                    <textarea rows="8" name="message" maxlength="300" placeholder="Message *" required></textarea>
+                    <p>* Required Fields</p>
+                    <button class="hero-btn green-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- -------- Footer ------------->
+    <hr>
+    <section class="footer">
+        <div class="icons footer-col">
+            <h4>Follow Us</h4>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <div class="bottom-links">
+                <ul>
+                    <li><a href="terms_of_use.html#confidentiality">Privacy Policy</a></li>
+                    <li><a href="terms_of_use.html">Terms of Use</a></li>
+                    <li><a href="terms_of_use.html#legal">Legal Notice</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <p>Made with <i class="fa fa-heart"></i> by Team ZSTJ</p>
+    </section>
+
+<!-- -------Javascript for Toggle Menu--------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

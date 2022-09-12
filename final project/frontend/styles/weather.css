@@ -1,0 +1,124 @@
+.card {
+    color: #eaeaea;
+    display: inline-block;
+    position:absolute;
+    bottom: 0;
+    left: 1%;
+    width: auto;
+    max-width: 300px;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+    padding: .5em;
+    margin: .5em;
+    border-radius: 30px;
+}
+
+.card h1 {
+    margin: 0;
+    margin-bottom: .3em;
+    font-size: 30px;
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    background: rgba(85, 85, 85, 0.5);
+    color: #eaeaea;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.search button:hover {
+    background: rgba(85, 85, 85, 0.8);
+}
+
+.search-bar {
+    width: calc(100% - 100px);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 24px;
+    background:rgba(85, 85, 85, 0.5);
+    transition: .2s;
+}
+
+.search-bar::placeholder {
+    color: #cfc9c9;
+}
+
+.search-bar:hover {
+    background: rgba(85, 85, 85, 0.8);
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather .flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: #eaeaea;
+    position: absolute;
+}
+
+.card .search {
+    display: none;
+}
+
+.card .weather .flex {
+    height: 50px;
+}
+
+.card .weather .temp {
+    margin-bottom: 0;
+}
+
+.card .weather .flex .icon {
+    max-height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        position: absolute;
+        min-width: 280px;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+}

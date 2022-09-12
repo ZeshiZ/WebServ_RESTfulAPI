@@ -1,0 +1,22 @@
+/* ---------------------------- Information Page -------------------------------- */
+.information {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.information h2 {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.information ul {
+    padding-left: 40px;
+}
+
+.information ul li {
+    font-size: 15px;
+    color: #222;
+    text-align: left;
+}
